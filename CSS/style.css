@@ -1,0 +1,31 @@
+h1 {
+  font-weight: bold;
+  color: gray;
+
+  margin: 1;
+  border: 1px solid black;
+  padding: 0%;
+/* background: red ; */
+}
+
+p {
+  font-weight: normal;
+}
+
+li {
+  list-style-type: circle;
+}
+
+a :hover {
+  color: pink;
+  text-decoration: none;
+}
+
+h1:visited {
+  color: green;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
