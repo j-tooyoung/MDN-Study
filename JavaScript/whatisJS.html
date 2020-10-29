@@ -4,12 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  //
   <link rel="stylesheet" href="style/xiaoming.css">
+
+ 
 </head>
 <body>
 
 
   <p>玩家1：小明</p>
+  
+  // 需放在底部
+  <script>
+    const para = document.querySelector('p')
+    para.addEventListener('click', updateName)
+
+    function updateName() {
+      let name = prompt("输入一个新的名字：")
+      para.textContent = "玩家1：" + name
+    }
+  </script>
   
 </body>
 </html>
